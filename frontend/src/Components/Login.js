@@ -50,7 +50,6 @@ const Login = () => {
         });
 
       console.log(response.data);
-      console.log(response.accessToken);
       console.log(JSON.stringify(response));
       setSuccess(true);
     } catch (err) {
@@ -84,7 +83,6 @@ const Login = () => {
               onBlur={() => setEmailFocus(false)}
             />
             {email && emailFocus && !validEmail ? <p>Email is Invalid</p> : ''}
-            {/* { !email && !emailFocus ? <p>Required</p> : ''} */}
 
             <input
               type="password"
