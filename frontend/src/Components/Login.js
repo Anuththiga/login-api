@@ -84,7 +84,6 @@ const Login = () => {
               onBlur={() => setEmailFocus(false)}
             />
             {email && emailFocus && !validEmail ? <p>Email is Invalid</p> : ''}
-            {/* { !email && !emailFocus ? <p>Required</p> : ''} */}
 
             <input
               type="password"
