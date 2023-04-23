@@ -10,7 +10,6 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Login/>
-      
       </BrowserRouter>
     </div>
   );
